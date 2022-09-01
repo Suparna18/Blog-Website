@@ -1,0 +1,174 @@
+*{
+padding:0;
+margin: 5px;;
+box-sizing: border-box;
+}
+.nav1{
+    width:100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:100px 0px;
+}
+.icon i{
+    font-size: 20px;
+    margin: 0px 5px;
+    border-radius: 50%;
+    padding: 10px;
+    background: #ef071e;
+    color: white;
+
+}
+.logo{
+    text-align: center;
+    font-size: 50px;
+    line-height: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+.logo span{
+font-size: 20px;
+color:#f31111;
+font-weight: bold;
+
+}
+.search{
+    font-size: 30px;
+}
+.nav2{
+    width:100%;
+    height:50px;
+    box-shadow: 2px;
+    box-shadow:2px 3px 5px grey;
+}
+.menu{
+    width:70%;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+
+
+}
+.menu a{
+     text-decoration: none;
+     color:black;
+     padding:10px 20px;
+     font-weight: bold;
+     text-transform: uppercase;
+     font-family: 'Roboto';
+     transition: 0.4s ease-in-out
+     
+}
+.menu a:hover{
+    transform: scale(1.2);
+}
+
+header{
+    width:100%;
+    display:flex;
+}
+
+header div{
+    position: relative;
+    cursor:pointer;
+    overflow: hidden;
+}
+header div img{
+    width:100%;
+    height:100%;
+    transition: 0.4s ease-in-out;
+    
+}
+header div p{
+    position: absolute;
+    bottom:0;
+    width:100%;
+    height: 80px;
+    line-height: 80px;
+    background: (0,0,0,0.8);
+    font-size: 20px;
+    color:azure;
+    text-align: center;
+}
+header div a{
+    text-decoration: none;
+    background: #55ec62;
+    color: azure;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+header div img:hover{
+    transform: scale(1.2);
+
+
+}
+#trends{
+    width:100%;
+    padding:50px 100px;
+}
+.trends-row{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.trends-left-col{
+    flex-basis:60%;
+    cursor:pointer;
+
+}
+.trends-right-col{
+    flex-basis:30%;
+
+}
+.trends-right-col img{
+    width:100%;
+
+
+
+}
+.post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px auto;
+    font-family: 'Dancing Script';
+    
+}
+.post img{
+
+width:100px;
+height:100px;
+margin-right:50px;
+border-radius:50px;
+}
+.aboutme h2{
+    font: bold;
+}
+.trends-left-col a{
+    text-decoration: none;
+    background: #1f1c28;
+    color: azure;
+    font-size: 15px;
+    padding: 5px 6px;
+
+}
+.trends-right-col h4{
+    font-size: 50px;
+    font-family: 'Dancing Script';
+
+}
+.icon2 i{
+    font-size: 20px;
+    background:rgb(80, 48, 239);
+    color: rgb(243, 239, 239);
+    margin: 0px 5px;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+
+
+
